@@ -1,0 +1,17 @@
+.back-to-top-back{
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+}
+.Arrow-btn{
+    color: var(--blue);
+}
