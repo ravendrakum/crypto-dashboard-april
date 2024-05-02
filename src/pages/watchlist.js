@@ -13,7 +13,10 @@ function WatchlistPage() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const getData = async () => {
+    
+    getData();
+  }, []);
+  const getData = async () => {
       setLoading(true);
       const allCoins = await get100Coins();
       if (coins) {
@@ -21,8 +24,6 @@ function WatchlistPage() {
       }
       setLoading(false);
     };
-    getData();
-  }, [coins]);
 
   
 
