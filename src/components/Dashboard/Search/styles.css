@@ -1,25 +1,24 @@
-.search-flex{
+.search-box {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
-    gap: 1.5rem;
-    padding: .5rem 1.5rem;
-    color: var(--grey);
+    gap: 1rem;
+    width: 80%;
     background-color: var(--darkgrey);
-    width: 87%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 1rem 1.5rem;
     border-radius: 3rem;
-    font-size: 1.2rem;
-}
-.search-flex input{
-    background-color: var(--darkgrey);
+    margin: 2rem auto;
+  }
+  
+  .search-box input {
     width: 100%;
-    font-family: 'Inter';
-    font-size: 1.2rem;
     color: var(--grey);
-    border: none;
-}
-.search-flex input:focus{
+    background-color: var(--darkgrey);
+    font-size: 1.2rem;
+    font-family: "Inter";
+    border: 0px solid #000;
+  }
+  
+  .search-box input:focus {
     outline: none;
-}
+  }
